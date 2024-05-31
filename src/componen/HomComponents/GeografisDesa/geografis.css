@@ -1,0 +1,64 @@
+.geografis{
+    text-align: center;
+    padding: 3rem 7%;
+}
+.geografis h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #252B3B;
+}
+.geografis h3{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #252B3B;
+}
+.img-geo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.img-geo img{
+    height:70vh;
+    width: auto;
+}
+.img-geo p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 884px){
+    .img-geo{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .img-geo{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    .img-geo{
+        flex-direction: column;
+    }
+    .img-geo img{
+        height:35vh;
+        width: 35vh;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 361px){
+
+}
+@media screen and (max-width: 321px){
+
+
+}

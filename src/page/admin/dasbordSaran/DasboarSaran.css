@@ -1,0 +1,31 @@
+
+.DasbordSaran{
+    padding: 10rem 7%;
+}
+@media only screen and(max-width: 1366px){
+
+
+}
+@media screen and (max-width: 768px){
+    .DasbordSaran{
+        padding: 9rem 4%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .DasbordSaran{
+        padding: 9rem 4%;
+    }
+}
+@media screen and (max-width: 360px){
+    .DasbordSaran{
+        padding: 9rem 4%;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .Dasbord_User{
+        padding: 9rem 1%;
+    }
+
+}

@@ -1,0 +1,81 @@
+
+.main-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+.row-login{
+    background-color: #5691c9;
+    min-width: 30rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.row-login h1 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.input-login{
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+}
+.input-login label{
+    font-size: 1.3rem;
+    color: #ffff;
+    text-align: left;
+    margin: 0.5rem;
+}
+.input-login input{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.7rem;
+    border: 0.2rem solid rgb(92, 92, 92);
+}
+
+.login-buton{
+    background-color: #D6591E;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    padding: 0.5rem 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-buton:hover{
+    background-color: #f56d2ed0;
+    
+}
+.nottif{
+    color:white;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+@media only screen and(max-width: 1333px){
+
+}
+
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+    .main-login{
+        margin-top: 20rem;
+    }
+    .row-login{
+        background-color: #5691c9;
+    }
+}

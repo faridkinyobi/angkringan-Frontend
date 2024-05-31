@@ -1,0 +1,65 @@
+
+.buttonProdact{
+    background-color: #D6591E;
+    color: white;
+    border: none;
+    margin-top: 7rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonProdact:hover{
+    background-color: #ffffffd0;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Dasbord admin*/
+.Dasbord_Prodact{
+    padding: 1rem 7%;
+}
+.closeInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and(max-width: 1366px){
+
+
+}
+@media screen and (max-width: 768px){
+    .Dasbord_Prodact{
+        padding: 9rem 4%;
+    }
+    .buttonProdact{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .Dasbord_Prodact{
+        padding: 9rem 4%;
+    }
+    .buttonProdact{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .Dasbord_Prodact{
+        padding: 9rem 3%;
+    }
+    .buttonProdact{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .Dasbord_Prodact{
+        padding: 1rem 2.5%;
+    }
+    .buttonProdact{
+        margin-top: 10rem;
+    }
+}

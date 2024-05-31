@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* box-sizing: border-box; */
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+  /* font-family: 'Poppins', sans-serif; */
+}
+/* leptop */
+@media(max-width:1366px) {
+  *{
+    font-size: 85% ;
+  }
+}
+/* tablet */
+@media(max-width:768px) {
+  *{
+    font-size: 74.5% ;
+  }
+}
+/* phone */
+@media(max-width: 450px) {
+  *{
+    font-size: 65% ;
+  }
+}

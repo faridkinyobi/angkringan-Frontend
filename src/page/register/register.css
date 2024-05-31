@@ -1,0 +1,62 @@
+
+.main-regis{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.row-regis{
+    background-color: #5691c9;
+    min-width: 40rem;
+    min-height: 40rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.row-regis h1 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.input-regis{
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+}
+.input-regis label{
+    font-size: 1.3rem;
+    color: #ffff;
+    text-align: left;
+}
+.input-regis input{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.7rem;
+    border: 0.2rem solid rgb(92, 92, 92);
+}
+.regis-buton{
+    background-color: #D6591E;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    padding: 8px 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.regis-buton:hover{
+    background-color: #d6581ed0;
+}
+@media screen and (max-width: 640px){
+    .main-regis{
+        margin-top: 4rem;
+    }
+    .row-regis{
+        min-width: 30rem;
+        max-height: 40vh;
+    }
+}

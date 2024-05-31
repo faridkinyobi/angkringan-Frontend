@@ -1,0 +1,57 @@
+
+.content-sr{
+    margin: -4rem 0  0 2rem ;
+    width: 40%;
+}
+.content-sr h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.Editrow{
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-sr form{
+    text-align: left;
+    width: 100%;
+    /* padding: 3rem 2rem; */
+}
+.inputbox-sr{
+    margin-top: 1.2rem;
+}
+.inputbox-sr label{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.inputbox-sr input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: none;
+}
+.inputbox-sr .csaran{
+    width: 100%;
+    height: 10vh;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: none;
+}
+.sr-button{
+    background-color: #D6591E;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    padding: 8px 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.sr-button:hover{
+    background-color: #ffffffd0;
+    color: black;
+    border: 1px solid black;
+}

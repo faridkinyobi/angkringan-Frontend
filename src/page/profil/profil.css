@@ -1,0 +1,119 @@
+.app-profil{
+    padding: 7rem 7%;
+    justify-content: center;
+    text-align: center;
+}
+.title-pro{
+    background-image: url('../../componen/img/IMG_20230513_073036.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center;
+    /* width: 100vh; */
+}
+.title-pro h1{
+    color:  #D6591E;
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 9rem;
+    background-color: rgba(80, 131, 86, 0.329);
+}
+/* Profil */
+.profil{
+    margin: 7rem;
+}
+.profil h1{
+    background-color: #D6591E;
+    margin-bottom: 2rem;
+    border-bottom: 0.2rem  solid rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.profil p{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+/* end Profil */
+.asal-usul{
+    margin: 7rem;
+}
+.asal-usul h1{
+    border-bottom: 0.2rem  solid rgb(0, 0, 0);
+    background-color: #D6591E;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.asal-usul p{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.profil-cont{
+    display: flex;
+}
+/* end profil */
+/* visimisi */
+.vimi-title{
+    border-bottom: 0.2rem  solid rgb(0, 0, 0);
+    background-color: #D6591E;
+    font-size: 3rem;
+}
+.vimi-cont{
+    margin: 2rem;
+    text-align: left;
+}
+.vimi-cont h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.vimi-cont p{
+    text-align: left;
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.vimi-cont ol li{
+    text-align: left;
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+    .title-pro{
+       max-width: 60vh;
+    }
+    .title-pro h1{
+        color:  #D6591E;
+        font-size: 2rem;
+    }
+    .profil{
+        margin: 3rem;
+    }
+    .profil p{
+        text-align: justify;
+    }
+    .asal-usul{
+        margin: 3rem;
+    }
+    .asal-usul p{
+        text-align: justify;
+    }
+    .vimi-cont p{
+        width: 40vh;
+    }
+    .vimi-cont ol li{
+        width: 40vh;
+    }
+}

@@ -1,0 +1,103 @@
+
+.content-add{
+    margin: -5rem 0  0 2rem ;
+    width: 40%;
+    max-height: 80vh;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px 3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.form-add .h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.row-add{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-add .form-add{
+    text-align: left;
+    width: 96%;
+}
+.inputbox-add{
+    margin-top: 0.8rem;
+}
+.inputbox-add label{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.inputbox-add input{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background: none;
+    border: 0.1rem solid rgb(92, 92, 92);
+}
+.in-button{
+    background-color: #D6591E;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    padding: 8px 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.in-button:hover{
+    background-color: #ffffffd0;
+    color: black;
+    border: 1px solid black;
+}
+@media screen and(max-width: 1366px){
+
+
+}
+@media screen and (max-width: 788px){
+    
+    .content-add{
+        margin: -5rem 0  0 -9rem ;
+        width: 40%;
+    }
+        .form-add .h1{
+                font-size: 2rem;
+                
+        }
+    }
+
+@media screen and (max-width: 450px){
+    
+    .content-add{
+    margin: -5rem 0  0 -9rem ;
+    width: 45%;
+    margin-right: 1.2rem;
+    }
+    .form-add .h1{
+            font-size: 2rem;
+            
+    }
+}
+@media screen and (max-width: 360px){
+    .content-add{
+        margin: -5rem 0  0 -1rem ;
+        width: 44%;
+        margin-right: 1.4rem;
+    }
+    .form-add .h1{
+        font-size: 2rem;
+        
+    }
+}
+@media screen and (max-width: 321px){
+    .content-add{
+        margin: -5rem 0  0 -1rem ;
+        width: 40%;
+        margin-right: 1.3rem;
+    }
+    .form-add .h1{
+        font-size: 1.5rem;
+        
+    }
+}

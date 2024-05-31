@@ -1,0 +1,131 @@
+
+.kontak-pro{
+    background-image: url("../../componen/img/kontak.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    padding: 4rem 8%;
+    justify-content: space-between;
+    text-align: center;
+}
+.kontak-pro h1{
+    font-size: 2rem;
+}
+.kontak-pro img{
+    max-width: 50vh;
+    height: 50vh;
+    border-radius: 50% 20%;
+    padding: 10px 20px 30px 40px;
+    background-color: brown;
+}
+.kontak-pro h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.kontak-pro span{
+    color: #D6591E;
+}
+/* hubungi */
+.hub{
+    text-align: left;
+    /* width: 50%; */
+}
+.hub h2{
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.hub h2 span{
+    color: #D6591E;
+    font-size: 2.5rem;
+    font-weight: 700;   
+}
+.content{
+    padding: 4rem 7%;
+    text-align: center;
+}
+.content h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.row{
+    margin-top: 1rem;
+    display: flex;
+
+}
+.hubKontak{
+    display: flex;
+    padding: 1rem;
+}
+.hubKontak img {
+    width: 6vh;
+    height:7vh;
+    background-color: #49d61e;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+.hubKontak .imglok{
+    width: 6vh;
+    height: 6vh;
+}
+.hubkonTtitel{
+    margin-left: 1rem;
+    font-weight:700;
+}
+.hubkonTtitel p{
+    font-size: 1.5rem;
+    font-weight:300;
+}
+.maps{
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+    margin-top: 4rem;
+    border-radius: 2rem;
+}
+.maps{
+margin-bottom: 1rem;
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+}
+@media screen and (max-width: 640px){
+    .row{
+        flex-direction: column;
+    }
+    .kontak-pro{
+        flex-direction: column;
+    }
+    .kontak-pro img{
+        max-width: 20vh;
+        height: 20vh;
+       margin-bottom: 9rem;
+    }
+    .kontak-pro h1{
+        margin-top: 6rem;
+    }
+    .kontak-pro span{
+        font-size: 3rem;
+    }
+    .hub{
+        width: 90%;
+    }
+    .hubKontak img {
+        width: 4vh;
+        height: 4vh;
+    }
+    .hubKontak .imglok{
+        width: 4vh;
+        height: 4vh;
+    }
+
+}

@@ -1,0 +1,108 @@
+.USerAdmin{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+    gap: 1.2rem;
+    place-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+.cardUser{
+    background-color: rgb(216, 147, 56);
+    border-radius: 1rem;
+    width: 20rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); 
+}
+.UserIcon{
+    background: white;
+    width: 100%;
+    height: 22vh;
+    border-radius: 1rem 1rem 0 0;
+    padding: 1.2rem 0 1.2rem 0;
+    font-size: 10rem;
+}
+.CardDesc{
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    max-width: 16rem; 
+    max-width: 20rem;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;   
+}
+.widthUser{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem,1fr));
+    gap: 1.2rem;
+    margin-top: 1rem;
+    width: 50%;
+}
+
+@media screen and (max-width: 1366px){
+
+}
+@media screen and (max-width: 768px){
+    .USerAdmin{
+        grid-template-columns: repeat(auto-fit, minmax(14rem,1fr));
+        gap: 1.2rem;
+        place-items: center;
+    }
+    .cardUser{
+        width: 19rem;
+    }
+    .UserIcon{
+        width: 100%;
+        height: 21vh;
+    } 
+    .widthUser{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .cardUser{
+        width: 16rem;
+    }
+    .CardDesc{
+        max-width: 16rem;
+    }
+    /* .widthUser{
+        width: 56%;
+    } */
+}
+@media screen and (max-width: 361px){
+
+    .cardUser{
+        width: 15rem;
+    }
+    /* .UserIcon{
+        width: 100%;
+        height: 21vh;
+    } */
+    .CardDesc{
+        max-width: 15rem;
+    }
+    .widthUser{
+        width: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 321px){
+    .USerAdmin{
+        margin-left: 0.1rem;
+    }
+    /* .cardUser{
+        width: 15em;
+    } */
+    .UserIcon{
+        width: 100%;
+        height: 22vh;
+    }
+    .CardDesc{
+        max-width: 13rem;
+    }
+    /* .widthUser{
+        width: 55%;
+    } */
+}

@@ -1,0 +1,133 @@
+
+.app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7%;
+    background-image: url(../../componen/img/Rajanya\ nasi\ bungkus1.png); 
+    min-height: 95vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center ;
+}
+.app-contain h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size:5rem;
+    font-weight: 800;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.1rem;
+    text-align: left;
+    color: #241625;
+}
+.app-contain h1 span{
+    color: rgb(78, 199, 54);
+    font-size: 4rem;
+}
+.app-contain p{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 4rem;
+    margin-left: 10px;
+    text-align: left;
+    color: #241625;
+}
+.app-contain p span{
+    font-size: 1.3rem;
+    margin-top: 8px;
+    margin-left: 2px;
+    color: #241625;
+}
+.app-button{
+    background-color:#D6591E;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.app-button a{
+    color: white;
+}
+.app .imgPro{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin-top: 2.9rem;
+}
+.imglink{
+    display: flex;
+    margin-left: 4rem;
+    box-sizing: border-box;
+}
+.app a .img{
+    margin: 0.6rem;
+    width: 5vh;
+    max-height: auto;
+    padding: 0.4rem;
+    background-color:#d6711e;
+    border-radius: 1rem;
+}
+.app a img:hover{
+    width: 3vh;
+    padding: 0.7rem;
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+    .app{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    .app .imgPro{
+        width: 60vh;
+        height: 60vh;
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .app{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    .app .imgPro{
+        width: 50vh;
+        height: 50vh;
+        margin-bottom: 10rem;
+    }
+    .app-contain h1{
+        font-size:5rem;
+    }
+    .app-contain h1 span{
+        font-size: 4rem;
+    }
+    /* .app a .img{
+        width: 5vh;
+    } */
+}
+
+@media screen and (max-width: 640px){
+    .app{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    .app .imgPro{
+        width: 40vh;
+        height: 40vh;
+    }
+    .app-contain h1{
+        
+        font-size:4rem;
+    }
+    .app-contain h1 span{
+        font-size: 3rem;
+    }
+    .app a .img{
+        width:5vh;
+        height: 5vh;
+    }
+}

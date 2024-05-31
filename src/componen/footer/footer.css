@@ -1,0 +1,22 @@
+.footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+
+}
+.class-cpy{
+    background-color: rgb(233, 187, 126);
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+.class-cpy p{
+    font-size: 1rem;
+}
+.class-cpy p strong{
+    font-size: 1rem;
+}
+.class-cpy .locti{
+    font-size: 1.5rem;
+}

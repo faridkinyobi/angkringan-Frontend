@@ -1,0 +1,13 @@
+.slid-contain{
+    background-color: black;
+    padding: 5rem;
+    color: wheat;
+    height: 100vh;
+}
+.box{
+    background-color: aliceblue;
+    height: 300px;
+}
+.box h1{
+    text-align: center;
+}

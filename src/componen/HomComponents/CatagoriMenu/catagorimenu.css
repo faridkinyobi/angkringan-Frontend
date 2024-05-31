@@ -1,0 +1,50 @@
+.menu{
+    text-align: center;
+    /* padding: 4rem 0 5rem 0; */
+    padding: 2rem 7%;
+    background-color: #E27F2C;
+    padding-bottom: 5rem;
+}
+.menu-title{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #000000;
+}
+.menu-desc{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    color: #000000;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem,1fr));
+    gap: 1rem;
+    align-items: center;
+}
+.menu-card h3{
+    font-size: 2rem;
+    color:  #000000;
+}
+.menu-card-img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px){
+    .menu-card-img{
+        width: 50%;
+        height: 100%;
+        margin: 0.4rem;
+    }
+}

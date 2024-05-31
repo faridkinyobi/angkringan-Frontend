@@ -1,0 +1,104 @@
+
+.main-add{
+    margin: -5rem 0  0 2rem ;
+    width: 40%;
+    max-height: 80vh;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px 3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.row-add{
+    display: flex;
+    flex-wrap: wrap;
+}
+.from-Add .h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.from-Add{
+    text-align: left;
+    width: 96%;
+}
+.input-add{
+    padding-top: 0.8rem;
+}
+.input-add label{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.input-add input{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    background: none;
+    border: 0.1rem solid rgb(92, 92, 92);
+}
+
+.add-buton{
+    background-color: #D6591E;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    padding: 4px 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.add-buton:hover{
+    background-color: #d6581ed0;
+}
+
+@media screen and(max-width: 1366px){
+
+
+}
+@media screen and (max-width: 788px){
+    
+    .content-add{
+        margin: -5rem 0  0 -9rem ;
+        width: 40%;
+    }
+        .form-add .h1{
+                font-size: 2rem;
+                
+        }
+    }
+
+@media screen and (max-width: 450px){
+    
+    .main-add{
+    margin: -5rem 0  0 -9rem ;
+    width: 45%;
+    margin-right: 1.2rem;
+    }
+    .form-add .h1{
+            font-size: 2rem;
+            
+    }
+}
+@media screen and (max-width: 360px){
+    .main-add{
+        margin: -5rem 0  0 -1rem ;
+        width: 44%;
+        margin-right: 1.4rem;
+    }
+    .form-add .h1{
+        font-size: 2rem;
+        
+    }
+}
+@media screen and (max-width: 321px){
+    .main-add{
+        margin: -5rem 0  0 -1rem ;
+        width: 40%;
+        margin-right: 1.3rem;
+    }
+    .form-add .h1{
+        font-size: 1.5rem;
+        
+    }
+}

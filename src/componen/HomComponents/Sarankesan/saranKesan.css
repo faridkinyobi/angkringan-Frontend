@@ -1,0 +1,33 @@
+.slid-contain{
+    text-align: center;
+    padding: 1.4rem 7%;
+    margin-top: 4rem;
+}
+.slid-title{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color:#252B3B;
+}
+.slid-title-decs{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom:2rem;
+    color:#252B3B;
+}
+.box{
+    min-height: 40vh;
+    width: 90vh;
+}
+.boxcil{
+    display: flex;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.25);
+    padding: 2.5rem;
+    border-radius: 2rem;
+}
+.icon{
+    background: #D6591E;
+    border-radius: 100%;
+    padding: 2.3rem;
+    font-size: 6rem;
+}
